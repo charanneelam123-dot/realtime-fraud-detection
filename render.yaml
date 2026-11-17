@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: realtime-fraud-detection
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATA_DIR
+        value: /tmp/portfolio
+      - key: ADMIN_API_TOKEN
+        generateValue: true
