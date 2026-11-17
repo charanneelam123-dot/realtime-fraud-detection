@@ -1,0 +1,20 @@
+{
+  "repo": "realtime-fraud-detection",
+  "url": "https://realtime-fraud-detection-iosi.onrender.com",
+  "health": "passed",
+  "functional_check": {
+    "trained_model_scoring_and_idempotency": "passed",
+    "model_version": "7e9cab9ddaac4c27"
+  },
+  "deployment_status": "live",
+  "deployed_code_commit": "047b9e9877ad445c97b6224e76460ad62bfaf568",
+  "deploy_id": "dep-dbuduoojo6nc739q85n0",
+  "verified_on": "2026-11-17",
+  "compute_plan": "free",
+  "auto_deploy": false,
+  "limitations": [
+    "Model calls require server-side credentials and operator token.",
+    "Free instance storage is ephemeral; idle starts may take time.",
+    "Kafka/Spark adapter infrastructure is not hosted or end-to-end verified."
+  ]
+}

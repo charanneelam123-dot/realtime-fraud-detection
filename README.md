@@ -1,5 +1,7 @@
 # Real-Time Fraud Detection System
 
+**[Open the live app](https://realtime-fraud-detection-iosi.onrender.com)** · [API documentation](https://realtime-fraud-detection-iosi.onrender.com/docs)
+
 A retry should not count as another transaction.
 
 The application trains a real XGBoost classifier on seeded synthetic transactions.
